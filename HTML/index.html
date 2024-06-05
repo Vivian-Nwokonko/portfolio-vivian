@@ -38,10 +38,7 @@
 
     </div>
 
-    <!-- adding of scroll bar -->
-    <a class="totop" id="to-top">
-        <span>top</span>
-    </a>
+
 
 
 
@@ -256,22 +253,7 @@
         })
     </script>
 
-    <!-- script for totop cursor that takes you to top of the screen -->
-    <script>
-        const tag = document.querySelector("#to-top")
-        tag.onclick = e => {
-            window.scrollTo(0, 0)
-        }
-
-        window.addEventListener("scroll", function () {
-            if (window.pageYOffset > 100) {
-                tag.classList.add("false")
-            } else {
-                tag.classList.remove("false")
-            }
-        })
-    </script>
-
+   
 </body>
 
 </html>
